@@ -1,0 +1,192 @@
+#dev{
+    height: 600px;
+    width: 1259px;
+    border-radius: 3%;
+
+}
+#one{
+    margin-top: -13%;
+    margin-left: 5%;
+
+}
+#two{
+    margin-top: 5%;
+    margin-left: 60%;
+    margin-top: -5%;
+
+
+}
+#gad{
+    color: blue;
+}
+body{
+    background-color: rgb(176, 233, 233);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 30%; */
+ 
+    /* gap: 2%; */
+    color:rgb(28, 80, 57);
+    font-weight: bold;
+    margin-left: 3%;
+    font-size: xx-large;
+}
+#gadget{
+    font-size:58px;
+    font-weight: bold;
+    margin-top: -40%;
+    color: rgb(15, 229, 47);
+    margin-left: 3%;
+}
+#lorem{
+    font-size:40px;
+}
+#design{
+    margin-left: 5%;
+}
+.foot{
+    display: flex;
+    gap: 10%;
+    background-color: rgb(6, 6, 6);
+    color: aliceblue;
+}
+#cam{
+    height: 400px;
+    width: 600px;
+    margin-top: 20%;
+    border-radius: 5%;
+
+
+}
+#headphones{
+    height: 400px;
+    width: 600px;
+    margin-top: 20%;
+    border-radius: 5%;
+}
+#ground{
+    width:1200px ;
+    height: 300px;
+    border-radius: 5%;
+    margin-left: 2%;
+    margin: 3%;
+}
+#lev{
+    margin-top: -20%;
+    margin-left: 5%;
+   
+}
+
+#man{
+    margin-left: 65%;
+    margin-top:13% ;
+}
+#you{
+    margin-left: 65%;
+    margin-top: -17%;
+    border-radius: 25%;
+}
+#words{
+    margin-top: 20%;
+}
+#testimony {
+    margin-top: 15%;
+    margin-left: 42%;
+}
+#work{
+    margin-top: 5%;
+}
+#words{
+    margin-top: 6%;
+    margin-left: 15%;
+}
+
+.cables{
+    margin-left: 2%;
+}
+.cont{
+    display: flex;
+    gap: 20%;
+    margin-left: 5%;
+}
+#butt{
+    padding: 20px;
+    padding-inline: 3%;
+    padding-inline-end: 5%;
+    border-radius: 35%;
+    background-color: rgb(228, 207, 20);
+    border-color: rgb(228, 207, 20);;
+   
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20%;
+}
+.products{
+    border: solid rgb(198 203 198);
+    border-radius: 5px;
+    margin-bottom: 2%;
+    text-align: center;
+
+}
+@media screen and (max-width:960px){
+    #dev{
+        height: 200px;
+        width: 200px;
+    }
+    #ground{
+        height: 200px;
+        width: 200px;
+
+    }
+    #cam{
+        height: 250px;
+        width: 250px;
+
+
+    }
+    #headphones{
+
+        height: 250px;
+        width: 250px;
+    }
+   
+    .nav{
+        flex-direction: column;
+    }
+    #you{
+        height: 250px;
+        width: 250px;
+        margin-left: 6%;
+
+    }
+    .foot{
+        flex-direction: column;
+
+    }
+    .cont{
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    #testimony{
+        margin-left: 10%;
+    }
+    #words{
+        margin-left: 1%;
+        font-size: smaller;
+
+    }
+    #butt{
+        padding: 10%;
+        padding-inline: 5%;
+    }
+    #gadget{
+        font-size: small;
+    }
+    
+
+}
